@@ -1,0 +1,31 @@
+{
+    "name": "febrest-storage-provider",
+    "version": "1.0.0",
+    "author": {
+        "name": "Spencer Ye",
+        "email": "pallyoung@163.com"
+    },
+    "license": "Apache 2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/febrest/febrest-storage-provider.git"
+    },
+    "devDependencies": {
+        "febrest": "^0.4.0-beta",
+        "rollup": "^0.58.2",
+        "babel-core": "^6.26.0",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-flow": "^6.23.0",
+        "babel-preset-stage-2": "^6.24.1",
+        "rollup-plugin-babel": "^3.0.3",
+        "rollup-plugin-commonjs": "^8.3.0",
+        "rollup-plugin-prettier": "^0.4.0",
+        "rollup-plugin-uglify": "^3.0.0"
+    },
+    "scripts": {
+        "test": "jest",
+        "build": "node ./scripts/build.js true",
+        "publish": "node ./scripts/publish.js"
+    }
+}
